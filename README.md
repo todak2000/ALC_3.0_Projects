@@ -6,6 +6,7 @@
 
 ### PROJECT ONE (HELLO ANDROID)
 #### This app is a simple card app which is aimed at promoting Udacity, her values and what they stand for. The app contains one Activity View with little or no java end code written
+![alc3_p001](https://user-images.githubusercontent.com/26861798/40879561-eacf6974-6699-11e8-8793-cb24e957c369.png)
 
 
 ### PROJECT TWO (SCORE APP)
