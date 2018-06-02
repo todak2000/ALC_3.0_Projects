@@ -11,7 +11,7 @@
 
 ### PROJECT TWO (SCORE APP)
 #### This app is a simple Football score app that collect score and other football related data  such as offside, red cards etc and updates for each. In this project both the XML and Java end were active. The app has one active Activity with an active Java end.
-
+![alc 3_ p002](https://user-images.githubusercontent.com/26861798/40879577-3d077a2e-669a-11e8-8670-f54f6c8f888a.gif)
 ## Built With
 #### ANDROID STUDIO 3.0 
 
