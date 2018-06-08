@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scrollPadding">20dp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="OptionSize">13sp</dimen>
+    <dimen name="Imagepadding">5dp</dimen>
+    <dimen name="number">50dp</dimen>
+    <dimen name="B_height">60dp</dimen>
+    <dimen name="B_width">80dp</dimen>
+    <dimen name="B_marginLeft">100dp</dimen>
+    <dimen name="B_marginTop">10dp</dimen>
+    <dimen name="line_height">5dp</dimen>
+    <dimen name="instructText">10sp</dimen>
+</resources>

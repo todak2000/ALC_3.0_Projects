@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:background="@drawable/background"
+    android:paddingLeft="@dimen/scrollPadding"
+    android:paddingRight="@dimen/scrollPadding"
+    android:paddingTop="@dimen/scrollPadding"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#fff">
+        <!--PINK LINE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"></LinearLayout>
+        <!--QUESTION ONE STARTS HERE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/one"
+                android:layout_width="@dimen/number"
+                android:layout_height="@dimen/number"
+
+                android:layout_gravity="left"
+                android:contentDescription="@string/image_desc"
+                android:paddingLeft="@dimen/Imagepadding"
+                android:paddingRight="@dimen/Imagepadding"
+                android:src="@drawable/one" />
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/Imagepadding"
+                android:layout_weight="1"
+                android:text="@string/question1"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/textSize"
+                app:fontFamily="@font/advent_pro_bold" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/instruc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:padding="@dimen/Imagepadding"
+            android:text="@string/instruct"
+            android:textColor="@color/primaryText"
+            android:textSize="@dimen/instructText"
+            app:fontFamily="@font/advent_pro_bold" />
+        <ImageView
+            android:id="@+id/one_image"
+            android:layout_width="@dimen/B_marginLeft"
+            android:layout_height="@dimen/B_marginLeft"
+            android:contentDescription="@string/image_desc"
+            android:paddingRight="@dimen/Imagepadding"
+            android:paddingLeft="@dimen/Imagepadding"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/mujica"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q1option1"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:checked="false"
+                android:text="@string/q1option1"
+                android:textSize="@dimen/OptionSize" />
+
+            <RadioButton
+                android:id="@+id/q1option2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:checked="false"
+                android:text="@string/q1option2"
+                android:textSize="@dimen/OptionSize" />
+
+            <RadioButton
+                android:id="@+id/q1option3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:checked="false"
+                android:text="@string/q1option3"
+                android:textSize="@dimen/OptionSize" />
+
+            <RadioButton
+                android:id="@+id/q1option4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:checked="false"
+                android:text="@string/q1option4"
+                android:textSize="@dimen/OptionSize" />
+        </RadioGroup>
+        <!--PINK LINE-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/line_height"
+                android:layout_weight="1"
+                android:background="@color/colorAccent"></LinearLayout>
+<!--END OF QUESTION ONE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/two"
+                android:layout_width="@dimen/number"
+                android:layout_height="@dimen/number"
+                android:contentDescription="@string/image_desc"
+                android:paddingRight="@dimen/Imagepadding"
+                android:paddingLeft="@dimen/Imagepadding"
+                android:layout_gravity="left"
+                android:src="@drawable/two"/>
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/advent_pro_bold"
+                android:text="@string/question_2"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/textSize" />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/q2option1"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:text="@string/q2option1" />
+
+        <CheckBox
+            android:id="@+id/q2option2"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:text="@string/q2option2" />
+
+        <CheckBox
+            android:id="@+id/q2option3"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:fontFamily="@font/advent_pro_bold"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            android:background="@drawable/option_back"
+            android:text="@string/q2option3" />
+
+        <CheckBox
+            android:id="@+id/q2option4"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:text="@string/q2option4" />
+        <!--PINK LINE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="@dimen/line_height"
+            android:background="@color/colorAccent"></LinearLayout>
+<!--END OF QUESTION TWO        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/three"
+                android:layout_width="@dimen/number"
+                android:layout_height="@dimen/number"
+                android:contentDescription="@string/image_desc"
+                android:paddingRight="@dimen/Imagepadding"
+                android:paddingLeft="@dimen/Imagepadding"
+                android:layout_gravity="left"
+                android:src="@drawable/three"/>
+            <TextView
+                android:id="@+id/question_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/advent_pro_bold"
+                android:text="@string/question_3"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/textSize" />
+        </LinearLayout>
+        <EditText
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+          android:layout_marginLeft="@dimen/scrollPadding"
+            android:layout_marginRight="@dimen/scrollPadding"
+            android:padding="5dp"
+            android:hint="@string/hint"
+            android:background="@drawable/option_back"
+            app:fontFamily="@font/advent_pro_bold"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+        <!--PINK LINE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"></LinearLayout>
+<!--END OF QUESTION THREE-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/four"
+                android:layout_width="@dimen/number"
+                android:layout_height="@dimen/number"
+                android:contentDescription="@string/image_desc"
+                app:fontFamily="@font/advent_pro_bold"
+                android:paddingRight="@dimen/Imagepadding"
+                android:paddingLeft="@dimen/Imagepadding"
+                android:layout_gravity="left"
+                android:src="@drawable/four"/>
+            <TextView
+                android:id="@+id/question_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/advent_pro_bold"
+                android:text="@string/question_4"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/textSize" />
+        </LinearLayout>
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4option1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:fontFamily="@font/advent_pro_bold"
+                android:checked="false"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                android:background="@drawable/option_back"
+                android:textSize="@dimen/OptionSize"
+                android:text="@string/q4option1" />
+
+            <RadioButton
+                android:id="@+id/q4option2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:textSize="@dimen/OptionSize"
+                android:text="@string/q4option2" />
+
+            <RadioButton
+                android:id="@+id/q4option3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:textSize="@dimen/OptionSize"
+                android:text="@string/q4option3" />
+            <RadioButton
+                android:id="@+id/q4option4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="false"
+                android:layout_weight="1"
+                android:layout_marginBottom="@dimen/Imagepadding"
+                app:fontFamily="@font/advent_pro_bold"
+                android:background="@drawable/option_back"
+                android:textSize="@dimen/OptionSize"
+                android:text="@string/q4option4" />
+        </RadioGroup>
+        <!--PINK LINE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"></LinearLayout>
+        <!--END OF QUESTION FOUR-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/five"
+                android:layout_width="@dimen/number"
+                android:layout_height="@dimen/number"
+                android:contentDescription="@string/image_desc"
+                android:paddingRight="@dimen/Imagepadding"
+                android:paddingLeft="@dimen/Imagepadding"
+                android:layout_gravity="left"
+                android:src="@drawable/five"/>
+            <TextView
+                android:id="@+id/question_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:fontFamily="@font/advent_pro_bold"
+                android:text="@string/question_5"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/textSize" />
+        </LinearLayout>
+        <CheckBox
+            android:id="@+id/q5option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            android:layout_weight="1"
+            android:background="@drawable/option_back"
+            app:fontFamily="@font/advent_pro_bold"
+            android:text="@string/q5option1" />
+
+        <CheckBox
+            android:id="@+id/q5option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            android:layout_weight="1"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:text="@string/q5option2" />
+
+        <CheckBox
+            android:id="@+id/q5option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            android:layout_weight="1"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:text="@string/q5option3" />
+
+        <CheckBox
+            android:id="@+id/q5option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            android:layout_weight="1"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:text="@string/q5option4" />
+        <!--PINK LINE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"></LinearLayout>
+        <!--END OF QUESTION FIVE        -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/six"
+                android:layout_width="@dimen/number"
+                android:layout_height="@dimen/number"
+                android:contentDescription="@string/image_desc"
+                android:paddingRight="@dimen/Imagepadding"
+                android:paddingLeft="@dimen/Imagepadding"
+                android:layout_gravity="left"
+                android:src="@drawable/six"/>
+            <TextView
+                android:id="@+id/question_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/advent_pro_bold"
+                android:layout_weight="1"
+                android:text="@string/question_6"
+                android:textColor="@color/primaryText"
+                android:textSize="@dimen/textSize" />
+        </LinearLayout>
+        <RadioButton
+            android:id="@+id/q6option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            app:fontFamily="@font/advent_pro_bold"
+            android:background="@drawable/option_back"
+            android:textSize="@dimen/OptionSize"
+            android:text="@string/q6option1"/>
+        <RadioButton
+            android:id="@+id/q6option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/advent_pro_bold"
+            android:checked="false"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/Imagepadding"
+            android:background="@drawable/option_back"
+            android:textSize="@dimen/OptionSize"
+            android:text="@string/q6option2" />
+        <!--PINK LINE-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/line_height"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"></LinearLayout>
+        <!--END OF QUESTION SIX-->
+
+        <Button
+            android:layout_width="@dimen/B_width"
+            android:layout_height="@dimen/B_height"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/B_marginLeft"
+            android:layout_marginRight="@dimen/B_marginLeft"
+            android:layout_marginTop="@dimen/B_marginTop"
+            android:background="@drawable/circle"
+            android:text="@string/submit"
+            android:onClick="submit"
+            android:textSize="@dimen/textSize" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Simple Quiz App</string>
+
+    <string name="question1">He is reputedly known as a the most humble president ever? who is he?</string>
+    <string name="instruct">(Please refer to the image below)</string>
+
+    <string name="q1option1">Dilma Rousseff</string>
+    <string name="q1option2">Eleuterio Fernández Huidobro</string>
+    <string name="q1option3">José Alberto "Pepe" Mujica</string>
+    <string name="q1option4">Mauricio Rosencof</string>
+
+    <string name="question_2">Who is known as the father of Modern Medicine ?</string>
+
+    <string name="q2option1">Pythagoras</string>
+    <string name="q2option2">Euclid</string>
+    <string name="q2option3">Hippocrates</string>
+    <string name="q2option4">Erastosthenes</string>
+
+    <string name="question_3">Which country is Hosting/Hosted the 2018 FIFA World Cup?</string>
+
+    <string name="question_4">Which country recently pulled out of the Paris Agreement for Global Warming ?</string>
+
+    <string name="q4option1">U.S.A</string>
+    <string name="q4option2">Nigeria</string>
+    <string name="q4option3">Cuba</string>
+    <string name="q4option4">Germany</string>
+
+    <string name="question_5">Who defined democracy as a government of the people, for the people and by the people?</string>
+
+    <string name="q5option1">Aristotle</string>
+    <string name="q5option2">Frank Roosevelt</string>
+    <string name="q5option3">Tao Mau</string>
+    <string name="q5option4">Abraham Lincoln</string>
+
+    <string name="question_6">President barrack Obama is the 45th president of the United States of America?</string>
+    <string name="q6option1">True</string>
+    <string name="q6option2">False</string>
+
+
+
+    <string name="image_desc">Image</string>
+    <string name="hint">Please Enter your answer here</string>
+    <string name="submit">Submit</string>
+
+</resources>
