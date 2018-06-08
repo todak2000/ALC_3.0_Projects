@@ -157,22 +157,22 @@ public class MainActivity extends AppCompatActivity {
 
 
         if (score == 30){
-            Toast.makeText(this, "Congratulations! You Scored "+score+" .", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Congratulations! You Scored "+score+" out of 30.", Toast.LENGTH_LONG).show();
         }
         else if (score == 25){
-            Toast.makeText(this, "Well Done! You Scored "+score+". You can do better!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Well Done! You Scored "+score+" out of 30. You can do better!", Toast.LENGTH_LONG).show();
         }
         else if (score == 20){
-            Toast.makeText(this, "Good! You Scored "+score+". You can do better!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Good! You Scored "+score+" out of 30. You can do better!", Toast.LENGTH_LONG).show();
         }
         else if (score == 15){
-            Toast.makeText(this, "Not Bad! You Scored "+score+". You can Improve next time!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Not Bad! You Scored "+score+" out of 30. You can Improve next time!", Toast.LENGTH_LONG).show();
         }
         else if (score == 10){
-            Toast.makeText(this, "Try again Man! You Scored "+score+". You can Improve next time!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Try again Man! You Scored "+score+" out of 30. You can Improve next time!", Toast.LENGTH_LONG).show();
         }
         else if (score == 5){
-            Toast.makeText(this, "You suck Man! You Scored "+score+". You need to work on yourself!", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You suck Man! You Scored "+score+" out of 30. You need to work on yourself!", Toast.LENGTH_LONG).show();
         }
         else{
             Toast.makeText(this, "Are you trying to be smart! You have not attempted the Questions.", Toast.LENGTH_SHORT).show();
