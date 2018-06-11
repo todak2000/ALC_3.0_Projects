@@ -15,6 +15,7 @@
 
 ### PROJECT THREE (SIMPLE QUIZ APP)
 #### This app is a simple quiz app that collect score that test the knowledge of the user on some current affairs and after submission it computes the scores which is displayed as a toast. The app has one active Activity with an active Java end.
+![alc 3_p003](https://user-images.githubusercontent.com/26861798/41255225-be2c3296-6dbd-11e8-8679-da51e6f0b451.gif)
 ## Built With
 #### ANDROID STUDIO 3.0 
 
